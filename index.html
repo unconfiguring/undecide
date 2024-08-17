@@ -8,95 +8,103 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #000;
-            color: #fff;
+            background-color: black;
+            color: white;
             font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             overflow: hidden;
-            user-select: none; /* Prevent text selection */
-            -webkit-user-select: none; /* Prevent text selection in WebKit browsers */
-            -moz-user-select: none; /* Prevent text selection in Firefox */
-            -ms-user-select: none; /* Prevent text selection in IE/Edge */
+            user-select: none; /* Disable text selection */
+            cursor: default; /* Disable text selection cursor */
+        }
+
+        .container {
             text-align: center;
         }
-        .container {
+
+        .circle-picture {
+            width: 100px; /* Adjust the width */
+            height: 100px; /* Adjust the height */
+            background: url('images/99743a4f3dfd50fdd7e8a7cd0cd9433d.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 50%;
+            margin-bottom: 20px; /* Space below the profile picture */
+        }
+
+        .text-container {
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            height: 100vh;
-            padding: 0 10px;
+            gap: 10px; /* Space between the text links */
         }
-        .ascii-art {
-            font-family: 'Courier New', Courier, monospace;
-            white-space: pre;
-            margin-bottom: 20px;
-            font-size: 8px; /* Adjust font size for small screens */
-            background: linear-gradient(270deg, #a6acab, #000000);
-            background-size: 400% 400%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; /* Make text color transparent to show gradient */
-            -webkit-animation: AnimationName 15s ease infinite;
-            -moz-animation: AnimationName 15s ease infinite;
-            animation: AnimationName 15s ease infinite;
+
+        .pgp-key, .hoa {
+            color: white;
+            text-decoration: none;
+            font-size: 14px; /* Adjust the font size */
+            border-bottom: 0.5px solid white;
         }
-        .pgp-key {
-            font-size: 14px; /* Adjust font size for small screens */
-            font-family: 'Arial', sans-serif;
-            text-decoration: underline;
-            color: #a6acab; /* Set text color to #a6acab */
-            cursor: pointer;
+
+        .pgp-key:hover, .hoa:hover {
+            color: #ccc; /* Optional: change color on hover */
         }
-        .pgp-key:hover {
-            color: #ddd; /* Lighten color on hover */
-        }
-        /* Responsive adjustments */
-        @media (max-width: 600px) {
-            .ascii-art {
-                font-size: 12px; /* Smaller font size for very small screens */
-            }
-            .pgp-key {
-                font-size: 12px; /* Smaller font size for very small screens */
-            }
-        }
-        @-webkit-keyframes AnimationName {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        @-moz-keyframes AnimationName {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        @keyframes AnimationName {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+
+        .hoa {
+            font-size: 14px; /* Same size as the PGP key */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="ascii-art">
-
-            ..                               .              ..                  
-            dF                                @88>          dF                    
-x.    .        u.    u.   '88bu.                             %8P          '88bu.                 
-.@88k  z88u    x@88k u@88c. '*88888bu        .u          .      .           '*88888bu        .u    
-~"8888 ^8888   ^"8888""8888"   ^"*8888N    ud8888.   .udR88N   .@88u           ^"*8888N    ud8888.  
-8888  888R     8888  888R   beWE "888L :888'8888. <888'888k ''888E`         beWE "888L :888'8888. 
-8888  888R     8888  888R   888E  888E d888 '88%" 9888 'Y"    888E          888E  888E d888 '88%" 
-8888  888R     8888  888R   888E  888E 8888.+"    9888        888E          888E  888E 8888.+"    
-8888 ,888B .   8888  888R   888E  888F 8888L      9888        888E     .    888E  888F 8888L      
-"8888Y 8888"   "*88*" 8888" .888N..888  '8888c. .+ ?8888u../   888&   .@8c  .888N..888  '8888c. .+ 
-`Y"   'YP       ""   'Y"    `"888*""    "88888%    "8888P'    R888" '%888"  `"888*""    "88888%   
-               ""         "YP'       "P'       ""     ^*       ""         "YP'    
-                                                                                  
-                                                                                  
-                                                                                  
-
+        <div class="circle-picture"></div>
+        <div class="text-container">
+            <a href="https://undeci.de/pgp" class="pgp-key">pgp</a>
+            <a href="https://undeci.de/hoa" class="hoa">hoa</a>
         </div>
-        <a href="pgp.txt" class="pgp-key">pgp key</a>
     </div>
+
+    <script>
+        // Function to wipe the page content and turn the background black
+        function wipePage() {
+            document.body.innerHTML = ''; // Clear the page content
+            document.body.style.backgroundColor = 'black'; // Turn background black
+            document.body.style.cursor = 'none'; // Optionally remove the cursor
+        }
+
+        // Disable context menu (right-click)
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            wipePage(); // Wipe the page if right-click is attempted
+        });
+
+        // Disable specific key combinations for opening developer tools
+        document.addEventListener('keydown', function(e) {
+            // Block Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C, F12, Ctrl+U
+            if (
+                (e.ctrlKey && e.shiftKey && (e.code === 'KeyI' || e.code === 'KeyJ' || e.code === 'KeyC')) || // Block Ctrl+Shift+I/J/C
+                (e.code === 'F12') || // Block F12
+                (e.ctrlKey && e.code === 'KeyU') // Block Ctrl+U (view source)
+            ) {
+                e.preventDefault();
+                wipePage(); // Wipe the page content and turn the background black
+                return false;
+            }
+        });
+
+        // Detect Developer Tools Open
+        function detectDevTools() {
+            const element = new Image();
+            Object.defineProperty(element, 'id', {
+                get: function () {
+                    wipePage(); // Wipe the page content if developer tools are detected
+                }
+            });
+            console.log(element);
+        }
+
+        // Run the detectDevTools function periodically
+        setInterval(detectDevTools, 1000);
+    </script>
 </body>
 </html>
