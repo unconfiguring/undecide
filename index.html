@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>undeci.de</title>
-    <link rel="icon" href="invis.ico" type="image/x-icon"> <!-- Add favicon link -->
+    <title>‎ </title>
     <style>
-        html, body {
+        body {
             margin: 0;
             padding: 0;
             background-color: black;
@@ -16,8 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            width: 100vw;
-            overflow: hidden; /* Ensure no scrolling */
+            overflow: hidden;
             user-select: none; /* Disable text selection */
             cursor: default; /* Disable text selection cursor */
         }
@@ -29,17 +27,17 @@
         .circle-picture {
             width: 100px; /* Adjust the width */
             height: 100px; /* Adjust the height */
-            background: url('99743a4f3dfd50fdd7e8a7cd0cd9433d.png') no-repeat center center;
+            background: url('images/99743a4f3dfd50fdd7e8a7cd0cd9433d.png') no-repeat center center;
             background-size: cover;
             border-radius: 50%;
             margin-bottom: 20px; /* Space below the profile picture */
-            -webkit-user-drag: none; /* Prevent image dragging on WebKit browsers */
         }
 
         .text-container {
             display: flex;
             justify-content: center;
             gap: 10px; /* Space between the text links */
+            transform: translateX(-10px); /* Move the text 10px to the left */
         }
 
         .pgp-key, .hoa {
@@ -56,11 +54,6 @@
         .hoa {
             font-size: 14px; /* Same size as the PGP key */
         }
-
-        /* Hide the audio player */
-        audio {
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -71,11 +64,6 @@
             <a href="https://undeci.de/hoa" class="hoa">hoa</a>
         </div>
     </div>
-
-    <!-- Audio player -->
-    <audio autoplay loop>
-        <source src="stoires.mp3" type="audio/mp3">
-    </audio>
 
     <script>
         // Function to wipe the page content and turn the background black
