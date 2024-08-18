@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-weight: 100;
@@ -6,6 +6,9 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     padding-bottom: 35px;
     overflow: hidden; /* Disable scrolling */
+    height: 100%; /* Ensure body takes full height */
+    -webkit-overflow-scrolling: none; /* Disable momentum scrolling on iOS */
+    touch-action: none; /* Prevent touch-based scrolling and gestures */
 }
 
 @font-face {
@@ -32,15 +35,17 @@ body a {
     text-align: center;
     height: 100vh; /* Center vertically */
     justify-content: center;
+    overflow: hidden; /* Ensure no overflow within the main container */
 }
 
 .ascii {
-    font-size: 14px; /* Adjusted font size to make ASCII art smaller */
-    padding: 14px;  /* Reduced padding */
-    margin: 1;      /* Removed margins */
+    font-size: 6px; /* Adjusted font size to make ASCII art smaller */
+    padding: 10px;  /* Reduced padding */
+    margin: 0;      /* Removed margins */
     line-height: 1; /* Adjusted line height */
-    transform: scale(1); /* Scale down the ASCII art */
+    transform: scale(0.5); /* Scale down the ASCII art */
     transform-origin: top left; /* Ensure scaling starts from the top-left corner */
+    white-space: pre-wrap; /* Ensure ASCII art maintains its format */
     animation: textShadow 1.6s infinite; /* Added animation */
     -webkit-touch-callout: none; /* Disable touch callout on iOS */
     -webkit-user-select: none; /* Disable text selection on WebKit browsers */
