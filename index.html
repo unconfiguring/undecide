@@ -5,102 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>‎ </title>
     <link rel="icon" href="invis.ico" type="image/x-icon">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            color: white;
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-            user-select: none; /* Disable text selection */
-            cursor: default; /* Disable text selection cursor */
-        }
-
-        .container {
-            text-align: center;
-        }
-
-        .circle-picture {
-            width: 100px; /* Adjust the width */
-            height: 100px; /* Adjust the height */
-            background: url('99743a4f3dfd50fdd7e8a7cd0cd9433d.png') no-repeat center center;
-            background-size: cover;
-            border-radius: 50%;
-            margin-bottom: 20px; /* Space below the profile picture */
-        }
-
-        .text-container {
-            display: flex;
-            justify-content: center;
-            gap: 10px; /* Space between the text links */
-            transform: translateX(1px); /* Move the text 10px to the left */
-        }
-
-        .pgp-key, .hoa {
-            color: white;
-            text-decoration: none;
-            font-size: 14px; /* Adjust the font size */
-            border-bottom: 0.5px solid white;
-        }
-
-        .pgp-key:hover, .hoa:hover {
-            color: #ccc; /* Optional: change color on hover */
-        }
-
-        .hoa {
-            font-size: 14px; /* Same size as the PGP key */
-        }
-    </style>
+    <link rel="stylesheet" href="asgard.css">
 </head>
 <body>
-    <div class="container">
-        <div class="circle-picture"></div>
-        <div class="text-container">
-            <a href="https://undeci.de/pgp" class="pgp-key">pgp</a>
-            <a href="https://undeci.de/hoa" class="hoa">hoa</a>
+    <div id="main-container">
+        <pre class="ascii">
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+      .=:       :::::.     =*-      :-+*##+     :=*##= -+##=           .*@#.       *@@@@%%#*+=-.      .*###-         :=+*#+.:=*#+.           :#@*              
+      .@@@@#=. *@@@@@@@=  -%@@@%-  :@@@@@@@@* :@@@@@@@@@@@@@@%=       :#@@@@@==:   :@@@@@@@@@@@@@@=  -*@@@@@@       %@@@@@@@@@@@@@@*.       -#@@@@@==:          
+      %@@@@@@@.#@@@@@@@+.%@@@@@@@* @@@@@@@@@@:-@@@@@@@@@@@@@@@@%.   -%@@@@@@@@@%   +@@@@@@@@@@@@@@# @@@@@@@@*       @@@@@@@@@@@@@@@@@=    +%@@@@@@@@@%          
+     *@@@@@@@@:+@@@@@@@+.@@@@@@@@++@@@@@@@@@@:-@@@@@@@@@@@@@@@@@@ .#@@@@**@@@@@@   #@@@@@-  %@@@@@* @@@@@@@@:       @@@@@@@@@@@@@@@@@@= .%@@@@+#@@@@@@          
+     %@@@@@@@@ .@@@@@@@* :@@@@@@@=@@@@@@@@@@@ :@@@@@@@@+:*@@@@@@@:*@@@@@#=--:::.   @@@@@=   +@@@@@+ %@@@@@@@        %@@@@@@@%:=@@@@@@@# @@@@@@*=-::::.          
+     .*@@@@@@@  @@@@@@@#  *@@@@@@@@@@@@@@@@@#  @@@@@@@*   #@@@@@@ =@@@@@@@@ =-    :@@@@@:   :@@@@@= #@@@@@@#        +@@@@@@@   +@@@@@@+ *@@@@@@@@ *:            
+       @@@@@@@  %@@@@@@@  =@@@@@@@@@@#@@@@@@+  %@@@@@@= :@@@@@@@+  :%@@@@@* @@#:  -@@@@@:     :-++. #@@@@@@#        -@@@@@@#  *@@@@@@@   =@@@@@@*-@@#:          
+      =@@@@@@@. @@@@@@@@- +@@@@@@@@@++@@@@@@# .@@@@@@@::@@@@@@@%  -%@@@@@+ *@@@@%::@@@@@*    :#=    #@@@@@@*        *@@@@@@* #@@@@@@@-  +@@@@@%= #@@@@#.        
+      #@@@@@@@%%@@@@@@@@* #@@@@@@@@* @@@@@@@@+#@@@@@@@+@@@@@@@@- =@@@@@@@ +@@@@@@@.#@@@@@#==#@@@*   #@@@@@@+       -@@@@@@@*%@@@@@@@*  *@@@@@@* +@@@@@@@        
+      *@@@@@@@@@@@@@+-=:  @@@@@@@@% -@@@@@@@@*=@@@@@@@@@@@@@@@+  @@@@@@@@@@@@@@@@*  #@@@@@@@@@@@@%: #@@@@@@=       .@@@@@@@@@@@@@@@%   @@@@@@@@@@@@@@@@=        
+      .%@@@@@@@@@@@#     .@@@@@@@@= *@@@@@@@@-.@@@@@@@@@@@@@@=   #@@@@@@@@@@@@@@+    :#@@@@@@@@@@@@.#@@@@@@:  .==-  *@@@@@@@@@@@@@#    %@@@@@@@@@@@@@@=         
+       .*@@@@@@@@@+       +@@@@@@@- +@@@@@@@@. *@@@@@@@@@@@%:     *@@@@@@@@@@@%.       -%@@@@@@@@%. #@@@@@*  :@@@@% .@@@@@@@@@@@@+     .#@@@@@@@@@@@#.          
+          :-====:           -*%#+-  .##*+=--.   -=+*##++*+-        .-+#%@@%#+:           =#@@@%+:    -#*-    :%@@@=  :=++*#*=**=.        .=+#%@@%#+:            
+                                                                                                                .                                               
+                                                                                                                                                                
+                                                                                                                                                                
+        </pre>
+        <div id="navbar-container" style="display: block;">
+            <ul class="nav">
+                <li><a href="hoa.html">hoa</a></li>
+            </ul>
+            <div id="navbar-scrolling">
+                <p class="mon">
+                    <span class="scroll">
+                        decide@undeci.de
+                    </span>
+                    <span></span>
+                </p>  
+            </div>
+        </div>
+        <div class="content-bottom">
+            <div id="bottom-container" style="flex-grow: 1;">
+            </div>
         </div>
     </div>
-
-    <script>
-        // Function to wipe the page content and turn the background black
-        function wipePage() {
-            document.body.innerHTML = ''; // Clear the page content
-            document.body.style.backgroundColor = 'black'; // Turn background black
-            document.body.style.cursor = 'none'; // Optionally remove the cursor
-        }
-
-        // Disable specific key combinations for opening developer tools
-        document.addEventListener('keydown', function(e) {
-            // Block Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C, F12, Ctrl+U
-            if (
-                (e.ctrlKey && e.shiftKey && (e.code === 'KeyI' || e.code === 'KeyJ' || e.code === 'KeyC')) || // Block Ctrl+Shift+I/J/C
-                (e.code === 'F12') || // Block F12
-                (e.ctrlKey && e.code === 'KeyU') // Block Ctrl+U (view source)
-            ) {
-                e.preventDefault();
-                wipePage(); // Wipe the page content and turn the background black
-                return false;
-            }
-        });
-
-        // Detect Developer Tools Open
-        function detectDevTools() {
-            const element = new Image();
-            Object.defineProperty(element, 'id', {
-                get: function () {
-                    wipePage(); // Wipe the page content if developer tools are detected
-                }
-            });
-            console.log(element);
-        }
-
-        // Run the detectDevTools function periodically
-        setInterval(detectDevTools, 1000);
-    </script>
 </body>
 </html>
