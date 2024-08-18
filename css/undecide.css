@@ -1,4 +1,3 @@
-/* General body styling */
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@ body {
     overflow: hidden; /* Disable scrolling */
 }
 
-/* Font-face declaration */
 @font-face {
     font-family: 'basiic';
     src: url('/assets/font/basiic.ttf') format('truetype');
@@ -18,14 +16,12 @@ body {
     font-display: swap;
 }
 
-/* Link styling */
 body a {
     color: rgba(170, 170, 170, 0.493);
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Main container styling */
 #main-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -38,7 +34,6 @@ body a {
     justify-content: center;
 }
 
-/* ASCII art styling */
 .ascii {
     font-size: 14px; /* Adjusted font size to make ASCII art smaller */
     padding: 14px;  /* Reduced padding */
@@ -55,7 +50,6 @@ body a {
     user-select: none; /* Disable text selection on other browsers */
 }
 
-/* ASCII art animation */
 @keyframes textShadow {
     0% {
         text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
@@ -68,7 +62,6 @@ body a {
     }
 }
 
-/* Navbar styling */
 #navbar-container {
     margin-top: 10px; /* Reduced top margin to bring "hoa" text closer */
 }
@@ -119,7 +112,6 @@ body a {
     width: 1000px;
 }
 
-/* Scrolling animation */
 @keyframes meow {
     0% {
         -webkit-transform: translateX(100%);
@@ -180,7 +172,7 @@ hr {
     text-align: center;
 }
 
-/* Button styling */
+/* New styles added */
 button {
     background: none;
     border: none;
@@ -188,12 +180,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     margin: 10px 0;
-    padding: 10px 20px; /* Added padding for better click area */
-    transition: background 0.3s, color 0.3s;
-}
-
-button:hover {
-    background: rgba(255, 255, 255, 0.1); /* Slight hover effect */
+    padding: 0;
 }
 
 button:disabled {
@@ -201,7 +188,6 @@ button:disabled {
     opacity: 0.5;
 }
 
-/* Rate limit alert styling */
 #rate-limit-alert {
     display: none;
     color: rgb(255, 255, 255);
