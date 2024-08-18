@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>‎ </title>
+    <link rel="icon" href="invis.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            white-space: pre-wrap;
+            margin: 0;
+            padding: 20px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            overflow: hidden; /* Prevent scrolling */
+            user-select: none; /* Disable text selection globally */
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            user-select: text; /* Enable text selection within container */
+        }
+
+        pre {
+            background-color: black; /* Set background to black */
+            padding: 10px;
+            border-radius: 10px; /* Rounded corners for text area */
+            overflow-x: auto;
+            color: white; /* Ensure text color is white */
+            margin-bottom: 20px; /* Add some space below the PGP key */
+            box-shadow: none; /* Remove any box shadow */
+            user-select: text; /* Enable text selection for PGP key */
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 8px; 
+        }
+
+        .action-button {
+            padding: 10px 20px;
+            background-color: transparent; 
+            color: white;
+            border: none; 
+            border-radius: 10px; 
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: none; 
+            
+            transition: none; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <pre id="pgp-key">
+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
+W59o5RG2j7BGudFaM38Pwg==
+=uXZC
+</pre>
+    <div class="button-container">
+        <button id="copy-button" class="action-button">copy</button>
+        <a href="C:/Users/loved/Downloads/public.asc" download="public.asc" class="action-button">download</a>
+    </div>
+</div>
+
+<script>
+    document.getElementById('copy-button').addEventListener('click', function() {
+        const pgpKey = document.getElementById('pgp-key').innerText;
+        navigator.clipboard.writeText(pgpKey).then(() => {
+            alert('copied');
+        }).catch(err => {
+            console.error(err);
+        });
+    });
+
+    
+    document.addEventListener('keydown', function(e) {
+        
+        if ((e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) ||
+            (e.key === 'F12') || (e.ctrlKey && e.key === 'U')) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+    });
+
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+</script>
+
+</body>
+</html>
