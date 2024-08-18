@@ -60,10 +60,8 @@ body a {
 .ascii {
     font-size: 14px; /* Adjusted font size to make ASCII art smaller */
     padding: 14px;  /* Reduced padding */
-    margin: 1;      /* Removed margins */
+    margin: 0;      /* Removed margins */
     line-height: 1; /* Adjusted line height */
-    transform: scale(1); /* Scale down the ASCII art */
-    transform-origin: top left; /* Ensure scaling starts from the top-left corner */
     animation: textShadow 1.6s infinite; /* Added animation */
     -webkit-touch-callout: none; /* Disable touch callout on iOS */
     -webkit-user-select: none; /* Disable text selection on WebKit browsers */
