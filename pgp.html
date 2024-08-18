@@ -8,151 +8,152 @@
     <link rel="stylesheet" href="css/undecide.css">
 </head>
 <body>
-    <div id="main-container">
-        <a href="https://undeci.de/" id="ascii-link">
-            <pre class="ascii">
-                 _           _      _      
- _   _ _ __   __| | ___  ___(_)  __| | ___ 
-| | | | '_ \ / _` |/ _ \/ __| | / _` |/ _ \
-| |_| | | | | (_| |  __/ (__| || (_| |  __/
- \__,_|_| |_|\__,_|\___|\___|_(_)__,_|\___|
-            </pre>
-        </a>
-        <div id="buttons-container">
-            <button id="copy-button">copy</button>
-            <button id="download-button">download</button>
-        </div>
-
-        <div id="rate-limit-alert">wait <span id="countdown-timer">0</span> seconds before downloading again</div>
-
-        <div class="content-bottom">
-            <div id="bottom-container" style="flex-grow: 1;">
+        <div id="main-container">
+            <a href="https://undeci.de/" id="ascii-link">
+                <pre class="ascii">
+                     _           _      _      
+     _   _ _ __   __| | ___  ___(_)  __| | ___ 
+    | | | | '_ \ / _` |/ _ \/ __| | / _` |/ _ \
+    | |_| | | | | (_| |  __/ (__| || (_| |  __/
+     \__,_|_| |_|\__,_|\___|\___|_(_)__,_|\___|
+                </pre>
+            </a>
+            <div id="buttons-container">
+                <button id="copy-button">copy</button>
+                <button id="download-button">download</button>
+            </div>
+    
+            <div id="rate-limit-alert">wait <span id="countdown-timer">0</span> seconds before downloading again</div>
+    
+            <div class="content-bottom">
+                <div id="bottom-container" style="flex-grow: 1;">
+                </div>
             </div>
         </div>
-    </div>
-
-    <script>
-        const pgpKey = `
------begin pgp public key block-----
-
-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
-W59o5RG2j7BGudFaM38Pwg==
-=uXZC
-
------end pgp public key block-----
-
-        `;
-
-        const rateLimitDuration = 10000; 
-        const alertElement = document.getElementById('rate-limit-alert');
-        const countdownTimer = document.getElementById('countdown-timer');
-        let hasDownloadedBefore = false;
-        let canDownload = true;
-        let timeoutHandle;
-        let countdownInterval;
-
-        document.getElementById('copy-button').addEventListener('click', () => {
-            navigator.clipboard.writeText(pgpKey).then(() => {
-                alert('copied');
-            }).catch(err => {
-                console.error('failed', err);
+    
+        <script>
+            const pgpKey = `
+    -----begin pgp public key block-----
+    
+    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
+    W59o5RG2j7BGudFaM38Pwg==
+    =uXZC
+    
+    -----end pgp public key block-----
+    
+            `;
+    
+            const rateLimitDuration = 10000; 
+            const alertElement = document.getElementById('rate-limit-alert');
+            const countdownTimer = document.getElementById('countdown-timer');
+            let hasDownloadedBefore = false;
+            let canDownload = true;
+            let timeoutHandle;
+            let countdownInterval;
+    
+            document.getElementById('copy-button').addEventListener('click', () => {
+                navigator.clipboard.writeText(pgpKey).then(() => {
+                    alert('copied');
+                }).catch(err => {
+                    console.error('failed', err);
+                });
             });
-        });
-
-        const downloadButton = document.getElementById('download-button');
-
-        function updateAlert(seconds) {
-            countdownTimer.textContent = seconds;
-            alertElement.style.display = 'block';
-        }
-
-        function hideAlert() {
-            alertElement.style.display = 'none';
-        }
-
-        function startRateLimitCountdown() {
-            const startTime = Date.now();
-            const endTime = startTime + rateLimitDuration;
-
-            function updateCountdown() {
-                const remainingTime = Math.max(0, Math.ceil((endTime - Date.now()) / 1000));
-                if (remainingTime > 0) {
-                    updateAlert(remainingTime);
-                } else {
-                    clearInterval(countdownInterval);
-                    hideAlert();
-                    canDownload = true;
-                    downloadButton.textContent = 'download';
+    
+            const downloadButton = document.getElementById('download-button');
+    
+            function updateAlert(seconds) {
+                countdownTimer.textContent = seconds;
+                alertElement.style.display = 'block';
+            }
+    
+            function hideAlert() {
+                alertElement.style.display = 'none';
+            }
+    
+            function startRateLimitCountdown() {
+                const startTime = Date.now();
+                const endTime = startTime + rateLimitDuration;
+    
+                function updateCountdown() {
+                    const remainingTime = Math.max(0, Math.ceil((endTime - Date.now()) / 1000));
+                    if (remainingTime > 0) {
+                        updateAlert(remainingTime);
+                    } else {
+                        clearInterval(countdownInterval);
+                        hideAlert();
+                        canDownload = true;
+                        downloadButton.textContent = 'download';
+                    }
                 }
+    
+                countdownInterval = setInterval(updateCountdown, 1000);
+                updateCountdown();
             }
-
-            countdownInterval = setInterval(updateCountdown, 1000);
-            updateCountdown();
-        }
-
-        downloadButton.addEventListener('click', () => {
-            if (!hasDownloadedBefore) {
-                const blob = new Blob([pgpKey], { type: 'text/plain' });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'public.asc';
-                a.click();
-                URL.revokeObjectURL(url);
-                hasDownloadedBefore = true;
-            } else if (canDownload) {
-                canDownload = false;
-                downloadButton.textContent = 'download';
-                startRateLimitCountdown();
-            }
-        });
-    </script>
-</body>
-</html>
+    
+            downloadButton.addEventListener('click', () => {
+                if (!hasDownloadedBefore) {
+                    const blob = new Blob([pgpKey], { type: 'text/plain' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'public.asc';
+                    a.click();
+                    URL.revokeObjectURL(url);
+                    hasDownloadedBefore = true;
+                } else if (canDownload) {
+                    canDownload = false;
+                    downloadButton.textContent = 'download';
+                    startRateLimitCountdown();
+                }
+            });
+        </script>
+    </body>
+    </html>
+    
