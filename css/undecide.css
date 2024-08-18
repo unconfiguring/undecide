@@ -16,6 +16,29 @@ body {
     font-display: swap;
 }
 
+button {
+    background: none;
+    border: none;
+    color: rgba(170, 170, 170, 0.493); /* Updated button text color */
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace; /* Updated font family */
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#rate-limit-alert {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin: 8px 0;
+}
+
 body a {
     color: rgba(170, 170, 170, 0.493);
     text-decoration: none;
@@ -170,27 +193,4 @@ hr {
 
 #top {
     text-align: center;
-}
-
-/* New styles added */
-button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 10px 0;
-    padding: 0;
-}
-
-button:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
-}
-
-#rate-limit-alert {
-    display: none;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    margin: 8px 0;
 }
