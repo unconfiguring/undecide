@@ -35,7 +35,7 @@ body a {
 }
 
 .ascii {
-    font-size: 8px; /* Adjusted font size to make ASCII art smaller */
+    font-size: 14px; /* Adjusted font size to make ASCII art smaller */
     padding: 14px;  /* Reduced padding */
     margin: 1;      /* Removed margins */
     line-height: 1; /* Adjusted line height */
