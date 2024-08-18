@@ -63,29 +63,30 @@ body a {
 }
 
 #navbar-container {
-    margin-top: 10px; /* Reduced top margin to bring "hoa" text closer */
+    margin-top: 10px; /* Space above the navbar */
 }
 
 .nav {
-    text-align: center;
-    margin: 0; /* Removed margins */
-    padding: 0; /* Removed padding */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: center; /* Center the text */
 }
 
 .nav li {
-    display: inline-block;
-    padding-right: 10px;
+    display: block; /* Stack list items vertically */
+    margin-bottom: 10px; /* Space between items */
 }
 
 .nav li a {
     text-decoration: none;
     color: rgba(170, 170, 170, 0.493);
-    transition: all 0.3s ease-out;
+    font-size: 16px; /* Font size */
+    transition: color 0.3s ease-out;
 }
 
 .nav li a:hover {
     color: rgba(218, 218, 218, 0.493);
-    transition: all;
 }
 
 .nav .selected {
