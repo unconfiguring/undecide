@@ -60,8 +60,10 @@ body a {
 .ascii {
     font-size: 14px; /* Adjusted font size to make ASCII art smaller */
     padding: 14px;  /* Reduced padding */
-    margin: 0;      /* Removed margins */
+    margin: -10px 0 0 0; /* Move ASCII art up by 10px (adjust as needed) */
     line-height: 1; /* Adjusted line height */
+    transform: scale(1); /* Scale down the ASCII art (if needed) */
+    transform-origin: top left; /* Ensure scaling starts from the top-left corner */
     animation: textShadow 1.6s infinite; /* Added animation */
     -webkit-touch-callout: none; /* Disable touch callout on iOS */
     -webkit-user-select: none; /* Disable text selection on WebKit browsers */
@@ -69,6 +71,21 @@ body a {
     -moz-user-select: none; /* Disable text selection on Mozilla browsers */
     -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
     user-select: none; /* Disable text selection on other browsers */
+}
+
+/* Ensure to define the animation keyframes */
+@keyframes textShadow {
+    0% {
+        text-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+    50% {
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    100% {
+        text-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+}
+/
 }
 
 @keyframes textShadow {
