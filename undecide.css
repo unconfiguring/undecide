@@ -35,31 +35,41 @@ body a {
 }
 
 .ascii {
-    margin: 0;
-    font-size: 12px;
-    padding: 25px;
-    padding-top: 35px;
-    animation: textShadow 1.6s infinite;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    font-size: 8px; /* Adjusted font size to make ASCII art smaller */
+    padding: 14px;  /* Reduced padding */
+    margin: 1;      /* Removed margins */
+    line-height: 1; /* Adjusted line height */
+    transform: scale(1); /* Scale down the ASCII art */
+    transform-origin: top left; /* Ensure scaling starts from the top-left corner */
+    animation: textShadow 1.6s infinite; /* Added animation */
+    -webkit-touch-callout: none; /* Disable touch callout on iOS */
+    -webkit-user-select: none; /* Disable text selection on WebKit browsers */
+    -khtml-user-select: none; /* Disable text selection on older Konqueror browsers */
+    -moz-user-select: none; /* Disable text selection on Mozilla browsers */
+    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+    user-select: none; /* Disable text selection on other browsers */
+}
+
+@keyframes textShadow {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    }
 }
 
 #navbar-container {
-    margin-bottom: 0px;
+    margin-top: 10px; /* Reduced top margin to bring "hoa" text closer */
 }
 
 .nav {
     text-align: center;
-    margin-top: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    margin-left: 0;
+    margin: 0; /* Removed margins */
+    padding: 0; /* Removed padding */
 }
 
 .nav li {
