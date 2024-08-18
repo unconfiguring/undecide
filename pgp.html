@@ -100,7 +100,7 @@ W59o5RG2j7BGudFaM38Pwg==
 
         `;
 
-        const rateLimitDuration = 10000; // 
+        const rateLimitDuration = 10000; 
         const alertElement = document.getElementById('rate-limit-alert');
         const countdownTimer = document.getElementById('countdown-timer');
         let hasDownloadedBefore = false;
@@ -108,7 +108,6 @@ W59o5RG2j7BGudFaM38Pwg==
         let timeoutHandle;
         let countdownInterval;
 
-        
         document.getElementById('copy-button').addEventListener('click', () => {
             navigator.clipboard.writeText(pgpKey).then(() => {
                 alert('copied');
@@ -117,7 +116,6 @@ W59o5RG2j7BGudFaM38Pwg==
             });
         });
 
-        
         const downloadButton = document.getElementById('download-button');
 
         function updateAlert(seconds) {
@@ -140,8 +138,8 @@ W59o5RG2j7BGudFaM38Pwg==
                 } else {
                     clearInterval(countdownInterval);
                     hideAlert();
-                    canDownload = true; 
-                    downloadButton.textContent = 'download'; 
+                    canDownload = true;
+                    downloadButton.textContent = 'download';
                 }
             }
 
@@ -151,7 +149,6 @@ W59o5RG2j7BGudFaM38Pwg==
 
         downloadButton.addEventListener('click', () => {
             if (!hasDownloadedBefore) {
-                
                 const blob = new Blob([pgpKey], { type: 'text/plain' });
                 const url = URL.createObjectURL(blob);
                 const a = document.createElement('a');
@@ -159,9 +156,8 @@ W59o5RG2j7BGudFaM38Pwg==
                 a.download = 'public.asc';
                 a.click();
                 URL.revokeObjectURL(url);
-                hasDownloadedBefore = true; 
+                hasDownloadedBefore = true;
             } else if (canDownload) {
-
                 canDownload = false;
                 downloadButton.textContent = 'download';
                 startRateLimitCountdown();
