@@ -130,6 +130,12 @@ body a {
     animation: meow 18s linear -4.00s infinite;
 }
 
+ul.nav-item {
+    list-style-type: none; /* Removes the bullet points */
+    margin: 0; /* Optional: Remove default margin */
+    padding: 0; /* Optional: Remove default padding */
+}
+
 .content-bottom {
     display: flex;
     line-height: 19px;
@@ -164,4 +170,27 @@ hr {
 
 #top {
     text-align: center;
+}
+
+/* New styles added */
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 0;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#rate-limit-alert {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin: 10px 0;
 }
