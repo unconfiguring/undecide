@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            -webkit-touch-callout: none; /* Disable touch callout on iOS */
+            -webkit-user-select: none; /* Disable text selection on WebKit browsers */
+            -khtml-user-select: none; /* Disable text selection on older Konqueror browsers */
+            -moz-user-select: none; /* Disable text selection on Mozilla browsers */
+            -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+            user-select: none; /* Disable text selection on other browsers */
+            overflow: hidden; /* Disable scrolling */
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: black; /* Match the page background color */
+            padding: 20px;
+            height: 100vh;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            cursor: pointer;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        .sidebar h2:hover {
+            color: #00acee;
+        }
+
+        /* Main content */
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            justify-content: center; /* Center vertically */
+            min-height: 100vh; /* Ensure the main-content area fills the viewport height */
+        }
+
+        .content {
+            display: none;
+            margin-top: 10px;
+            padding-left: 20px;
+            border: 1px solid #555;
+            padding: 15px;
+            background-color: #222;
+            border-radius: 8px;
+            width: 80%; /* Adjust width as needed */
+            max-width: 800px; /* Optional: limit max width for better readability */
+        }
+
+        .content a {
+            color: #00acee;
+            text-decoration: none;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animation for pop-out effect */
+        .content.show {
+            display: block;
+            animation: popout 0.3s ease-in-out;
+        }
+
+        @keyframes popout {
+            from { 
+                transform: scale(0.9); 
+                opacity: 0;
+            }
+            to { 
+                transform: scale(1); 
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2 onclick="toggleContent('psa')">PSA</h2>
+        <h2 onclick="toggleContent('irls')">IRLs</h2>
+        <h2 onclick="toggleContent('information')">Information</h2>
+        <h2 onclick="toggleContent('aliases')">Aliases</h2>
+        <h2 onclick="toggleContent('demographics')">Demographics</h2>
+        <h2 onclick="toggleContent('address')">Address</h2>
+        <h2 onclick="toggleContent('previousAddress')">Previous Address</h2>
+        <h2 onclick="toggleContent('poBox')">PO Box</h2>
+        <h2 onclick="toggleContent('email')">Email</h2>
+        <h2 onclick="toggleContent('ip')">IP</h2>
+        <h2 onclick="toggleContent('phone')">Phone</h2>
+        <h2 onclick="toggleContent('socials')">Socials</h2>
+        <h2 onclick="toggleContent('education')">Education</h2>
+        <h2 onclick="toggleContent('mother')">Mother</h2>
+        <h2 onclick="toggleContent('stepfather')">Stepfather</h2>
+        <h2 onclick="toggleContent('grandmother')">Grandmother</h2>
+        <h2 onclick="toggleContent('grandfather')">Grandfather</h2>
+    </div>
+
+    <!-- Main content area -->
+    <div class="main-content">
+        <div id="psa" class="content">
+            <p>All information was obtained through legal means and public sources. For more info, contact me at Discord @elicited.</p>
+        </div>
+
+        <div id="irls" class="content">
+            <p>files.offshore.cat/wQjtF7HK.jpg - little boy</p>
+            <p>files.offshore.cat/fKB3AQSn.jpg - 14th birthday picture</p>
+            <!-- Add more IRLs here -->
+        </div>
+
+        <div id="information" class="content">
+            <p>Name: Wiley John Holmes</p>
+            <p>Zodiac: Pisces</p>
+            <!-- Add more information here -->
+        </div>
+
+        <div id="aliases" class="content">
+            <p>Wiley Holmes</p>
+            <p>grxviity</p>
+            <!-- Add more aliases here -->
+        </div>
+
+        <!-- Add more sections for other categories in the same format -->
+    </div>
+
+    <script>
+        function toggleContent(id) {
+            var contents = document.querySelectorAll('.content');
+            contents.forEach(function(content) {
+                if (content.id === id) {
+                    content.classList.toggle('show');
+                } else {
+                    content.classList.remove('show');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
