@@ -32,16 +32,29 @@
             top: 0;
             left: 0;
             overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically */
         }
 
-        .sidebar h2 {
+        .sidebar button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px; /* Make the text larger */
             cursor: pointer;
-            padding: 10px 0;
-            margin: 0;
+            padding: 15px 30px; /* Increase padding to make the buttons bigger */
+            text-align: center;
+            width: 100%;
+            margin-bottom: 35px; /* Increase space between buttons */
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
         }
 
-        .sidebar h2:hover {
-            color: #00acee;
+        .sidebar button:hover {
+            background: #00acee;
+            color: black;
         }
 
         /* Main content */
@@ -98,31 +111,24 @@
 <body>
     <!-- Sidebar -->
     <div class="sidebar">
-        <h2 onclick="toggleContent('psa')">PSA</h2>
-        <h2 onclick="toggleContent('irls')">IRLs</h2>
-        <h2 onclick="toggleContent('information')">Information</h2>
-        <h2 onclick="toggleContent('aliases')">Aliases</h2>
-        <h2 onclick="toggleContent('demographics')">Demographics</h2>
-        <h2 onclick="toggleContent('address')">Address</h2>
-        <h2 onclick="toggleContent('previousAddress')">Previous Address</h2>
-        <h2 onclick="toggleContent('poBox')">PO Box</h2>
-        <h2 onclick="toggleContent('email')">Email</h2>
-        <h2 onclick="toggleContent('ip')">IP</h2>
-        <h2 onclick="toggleContent('phone')">Phone</h2>
-        <h2 onclick="toggleContent('socials')">Socials</h2>
-        <h2 onclick="toggleContent('education')">Education</h2>
-        <h2 onclick="toggleContent('mother')">Mother</h2>
-        <h2 onclick="toggleContent('stepfather')">Stepfather</h2>
-        <h2 onclick="toggleContent('grandmother')">Grandmother</h2>
-        <h2 onclick="toggleContent('grandfather')">Grandfather</h2>
+        <button onclick="toggleContent('irls')">IRLs</button>
+        <button onclick="toggleContent('information')">Information</button>
+        <button onclick="toggleContent('aliases')">Aliases</button>
+        <button onclick="toggleContent('demographics')">Demographics</button>
+        <button onclick="toggleContent('address')">Address</button>
+        <button onclick="toggleContent('previousAddress')">Previous Address</button>
+        <button onclick="toggleContent('poBox')">PO Box</button>
+        <button onclick="toggleContent('email')">Email</button>
+        <button onclick="toggleContent('ip')">IP</button>
+        <button onclick="toggleContent('phone')">Phone</button>
+        <button onclick="toggleContent('socials')">Socials</button>
+        <button onclick="toggleContent('education')">Education</button>
+        <button onclick="toggleContent('mother')">Mother</button>
+        <button onclick="toggleContent('stepfather')">Stepfather</button>
     </div>
 
     <!-- Main content area -->
     <div class="main-content">
-        <div id="psa" class="content">
-            <p>All information was obtained through legal means and public sources. For more info, contact me at Discord @elicited.</p>
-        </div>
-
         <div id="irls" class="content">
             <p>files.offshore.cat/wQjtF7HK.jpg - little boy</p>
             <p>files.offshore.cat/fKB3AQSn.jpg - 14th birthday picture</p>
