@@ -24,7 +24,7 @@
         /* Sidebar */
         .sidebar {
             width: 250px;
-            background-color: black; /* Match the page background color */
+            background-color: black;
             padding: 20px;
             height: 100vh;
             box-sizing: border-box;
@@ -34,20 +34,21 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            align-items: center; /* Center items horizontally */
-            justify-content: center; /* Center items vertically */
+            align-items: center;
+            justify-content: center;
+            transition: width 0.3s ease;
         }
 
         .sidebar button {
             background: none;
             border: none;
             color: white;
-            font-size: 18px; /* Make the text larger */
+            font-size: 18px;
             cursor: pointer;
-            padding: 15px 30px; /* Increase padding to make the buttons bigger */
+            padding: 15px 30px;
             text-align: center;
             width: 100%;
-            margin-bottom: 35px; /* Increase space between buttons */
+            margin-bottom: 35px;
             border-radius: 5px;
             transition: background 0.3s, color 0.3s;
         }
@@ -57,6 +58,27 @@
             color: black;
         }
 
+        .sidebar.collapsed {
+            width: 60px; /* Smaller width for collapsed sidebar */
+        }
+
+        .sidebar.collapsed button {
+            font-size: 12px; /* Smaller font size for collapsed state */
+            padding: 10px;
+            margin-bottom: 15px; /* Reduced spacing between buttons */
+        }
+
+        .sidebar.collapsed button:before {
+            content: attr(data-label);
+            display: block;
+            font-size: 12px;
+            color: white;
+        }
+
+        .sidebar-toggle {
+            display: none;
+        }
+
         /* Main content */
         .main-content {
             margin-left: 270px;
@@ -64,9 +86,10 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            align-items: center; /* Center horizontally */
-            justify-content: center; /* Center vertically */
-            min-height: 100vh; /* Ensure the main-content area fills the viewport height */
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            transition: margin-left 0.3s ease;
         }
 
         .content {
@@ -77,8 +100,8 @@
             padding: 15px;
             background-color: #222;
             border-radius: 8px;
-            width: 80%; /* Adjust width as needed */
-            max-width: 800px; /* Optional: limit max width for better readability */
+            width: 80%;
+            max-width: 800px;
         }
 
         .content a {
@@ -106,11 +129,51 @@
                 opacity: 1;
             }
         }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                flex-direction: row;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .sidebar button {
+                width: auto;
+                display: inline-block;
+                margin-bottom: 0;
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .sidebar-toggle {
+                display: block;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background: #333;
+                color: white;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            .sidebar.collapsed {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
     <!-- Sidebar -->
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <button onclick="toggleContent('irls')">IRLs</button>
         <button onclick="toggleContent('information')">Information</button>
         <button onclick="toggleContent('aliases')">Aliases</button>
@@ -125,6 +188,9 @@
         <button onclick="toggleContent('education')">Education</button>
         <button onclick="toggleContent('mother')">Mother</button>
         <button onclick="toggleContent('stepfather')">Stepfather</button>
+        <button onclick="toggleContent('grandmother')">Grandmother</button>
+        <button onclick="toggleContent('grandfather')">Grandfather</button>
+        <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
     </div>
 
     <!-- Main content area -->
@@ -160,6 +226,11 @@
                     content.classList.remove('show');
                 }
             });
+        }
+
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('collapsed');
         }
     </script>
 </body>
