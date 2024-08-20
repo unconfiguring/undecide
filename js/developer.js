@@ -1,4 +1,4 @@
-// Block key combinations that open developer tools
+// Prevent key combinations that open developer tools
 document.addEventListener('keydown', function(event) {
     const forbiddenKeys = [
         { ctrlKey: true, shiftKey: true, key: 'I' }, // Ctrl + Shift + I
@@ -22,28 +22,30 @@ document.addEventListener('keydown', function(event) {
     });
 });
 
-// Prevent right-click (context menu)
+// Prevent right-click (context menu) and touch events that might open developer tools on mobile
 document.addEventListener('contextmenu', function(event) {
     event.preventDefault();
 });
 
-// Prevent multi-touch and long-press but allow single taps and button clicks
 document.addEventListener('touchstart', function(event) {
-    if (event.touches.length > 1) { // Prevent multi-touch events
+    if (event.touches.length > 1) {
         event.preventDefault();
     }
 }, { passive: false });
 
-// Prevent zooming (pinch-to-zoom and double-tap zoom on mobile)
+// Prevent zooming (pinch-to-zoom on mobile)
 document.addEventListener('gesturestart', function(event) {
     event.preventDefault();
 });
 
-document.addEventListener('dblclick', function(event) {
-    event.preventDefault();
+// Block attempts to resize the window to trigger responsive modes
+window.addEventListener('resize', function(event) {
+    if (window.innerWidth < 500) { // Example: 500px is a threshold for responsive behavior
+        window.resizeTo(500, window.innerHeight); // Reset to the minimum width
+    }
 });
 
-// Prevent saving the webpage (Ctrl + S / Cmd + S)
+// Block attempts to download the website's content
 document.addEventListener('keydown', function(event) {
     if ((event.ctrlKey || event.metaKey) && (event.key === 's' || event.key === 'S')) {
         event.preventDefault();
