@@ -62,9 +62,3 @@ document.addEventListener('keydown', function(event) {
         event.preventDefault();
     }
 });
-
-
-window.addEventListener('beforeunload', function(event) {
-    event.preventDefault();
-    event.returnValue = ''; 
-});
