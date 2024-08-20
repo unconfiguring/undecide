@@ -43,13 +43,6 @@ document.addEventListener('dblclick', function(event) {
     event.preventDefault();
 });
 
-// Block attempts to resize the window to trigger responsive modes
-window.addEventListener('resize', function(event) {
-    if (window.innerWidth < 500) { // Example: 500px is a threshold for responsive behavior
-        window.resizeTo(500, window.innerHeight); // Reset to the minimum width
-    }
-});
-
 // Prevent saving the webpage (Ctrl + S / Cmd + S)
 document.addEventListener('keydown', function(event) {
     if ((event.ctrlKey || event.metaKey) && (event.key === 's' || event.key === 'S')) {
