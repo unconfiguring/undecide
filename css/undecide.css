@@ -5,7 +5,7 @@ body {
     background-color: #000000;
     font-family: "Lucida Console", "Courier New", monospace;
     padding-bottom: 35px;
-    overflow: hidden; /* Disable scrolling */
+    overflow: hidden; 
 }
 
 @font-face {
@@ -19,12 +19,12 @@ body {
 button {
     background: none;
     border: none;
-    color: rgba(170, 170, 170, 0.493); /* Updated button text color */
+    color: rgba(170, 170, 170, 0.493); 
     font-size: 16px;
     cursor: pointer;
     margin: 10px 0;
     padding: 0;
-    font-family: "Lucida Console", "Courier New", monospace; /* Updated font family */
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 button:disabled {
@@ -169,9 +169,9 @@ body a {
 }
 
 ul.nav-item {
-    list-style-type: none; /* Removes the bullet points */
-    margin: 0; /* Optional: Remove default margin */
-    padding: 0; /* Optional: Remove default padding */
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
 }
 
 .content-bottom {
