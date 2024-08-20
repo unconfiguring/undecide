@@ -27,7 +27,7 @@ document.addEventListener('contextmenu', function(event) {
     event.preventDefault();
 });
 
-// Prevent touch-based interactions that might open developer tools on mobile
+// Prevent multi-touch and long-press but allow single taps and button clicks
 document.addEventListener('touchstart', function(event) {
     if (event.touches.length > 1) { // Prevent multi-touch events
         event.preventDefault();
@@ -48,6 +48,13 @@ document.addEventListener('gesturestart', function(event) {
 
 document.addEventListener('dblclick', function(event) {
     event.preventDefault();
+});
+
+// Block attempts to resize the window to trigger responsive modes
+window.addEventListener('resize', function(event) {
+    if (window.innerWidth < 500) { // Example: 500px is a threshold for responsive behavior
+        window.resizeTo(500, window.innerHeight); // Reset to the minimum width
+    }
 });
 
 // Prevent saving the webpage (Ctrl + S / Cmd + S)
