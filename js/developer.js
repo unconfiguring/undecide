@@ -34,13 +34,6 @@ document.addEventListener('touchstart', function(event) {
     }
 }, { passive: false });
 
-document.addEventListener('touchend', function(event) {
-    const now = new Date().getTime();
-    if (event.timeStamp - now < 300) { // Detect long-press
-        event.preventDefault();
-    }
-});
-
 // Prevent zooming (pinch-to-zoom and double-tap zoom on mobile)
 document.addEventListener('gesturestart', function(event) {
     event.preventDefault();
