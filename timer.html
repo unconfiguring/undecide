@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="css/undecide.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<div id="main-container">
+    <div id="countdown">Loading...</div>
+</div>
+
+<script>
+    // Function to get or set the countdown target time
+    function getCountdownTarget() {
+        let countdownTarget = localStorage.getItem('countdownTarget');
+        if (!countdownTarget) {
+            countdownTarget = new Date();
+            countdownTarget.setDate(countdownTarget.getDate() + 3);
+            localStorage.setItem('countdownTarget', countdownTarget);
+        }
+        return new Date(countdownTarget);
+    }
+
+    // Function to update the countdown display
+    function updateCountdown() {
+        var now = new Date();
+        var countdownTarget = getCountdownTarget();
+        var timeRemaining = countdownTarget - now;
+
+        if (timeRemaining <= 0) {
+            document.getElementById('countdown').innerHTML = "00:00:00:00";
+            localStorage.removeItem('countdownTarget');  // Clear countdown when it reaches 0
+        } else {
+            var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown').innerHTML = 
+                String(days).padStart(2, '0') + ":" +
+                String(hours).padStart(2, '0') + ":" +
+                String(minutes).padStart(2, '0') + ":" +
+                String(seconds).padStart(2, '0');
+        }
+    }
+
+    // Update the countdown every second
+    setInterval(updateCountdown, 1000);
+
+    // Initialize the countdown display
+    updateCountdown();
+</script>
+
+</body>
+</html>

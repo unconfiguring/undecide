@@ -27,6 +27,21 @@ button {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+#countdown {
+    font-family: 'basiic', "Lucida Console", "Courier New", monospace; /* Ensure the font matches your existing styles */
+    font-size: 1.5em; /* Reduced font size */
+    color: white;
+    text-align: center;
+    background: none; /* Remove background color */
+    border: none; /* Remove border */
+    -webkit-touch-callout: none; /* Disable touch callout on iOS */
+    -webkit-user-select: none; /* Disable text selection on WebKit browsers */
+    -khtml-user-select: none; /* Disable text selection on older Konqueror browsers */
+    -moz-user-select: none; /* Disable text selection on Mozilla browsers */
+    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+    user-select: none; /* Disable text selection on other browsers */
+}
+
 button:disabled {
     cursor: not-allowed;
     opacity: 0.5;
@@ -84,8 +99,6 @@ body a {
     100% {
         text-shadow: 0 0 0 rgba(0,0,0,0);
     }
-}
-/
 }
 
 @keyframes textShadow {
