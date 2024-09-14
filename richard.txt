@@ -103,7 +103,8 @@
                                               │──│  created : 2018-12-08 04:28:03.0000000
                                               │                      └──│ updated : 2018-12-08 04:30:53.0000000
                                               │                                             └──│ id : 68873479
-                                              │                                                           └──│hash: c2NyeXB0AA4AAAAIAAAAAXGm09gGYQPYt2KO4lb3prpJDjG1XmBFFuZyTgnUUiNrl4m3kCf/FlTWzJS9m6xdn6Hbsj5Ei1JZPqORd8P2RnKIxSofAhTE7QAZFa3ShcoO
+                                              │                                                           └──│hash: 
+                       c2NyeXB0AA4AAAAIAAAAAXGm09gGYQPYt2KO4lb3prpJDjG1XmBFFuZyTgnUUiNrl4m3kCf/FlTWzJS9m6xdn6Hbsj5Ei1JZPqORd8P2RnKIxSofAhTE7QAZFa3ShcoO
                                               │
                                               │──│ zynga.com
                                               │──│  created : 2017-04-17 14:22:58
