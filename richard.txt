@@ -1,4 +1,4 @@
- › personal
+
 
 			  name : richard allen evers
                          zodiac : taurus
@@ -22,7 +22,6 @@
                                      │ mms gateway : 3215919439@mms.att.net
 
 
-			› aliases
  
                         crash
                         └──│ crash1
@@ -34,7 +33,6 @@
                         jomic15
 
                          
-                        › demographics 
 
                         weight : 205 lbs
                         height : 5'6
@@ -49,7 +47,6 @@
                         eye color : green
 
 
-                        › address
 
                         address : 981 murfreesboro pike apt 228, nashville, tn
                         district : davidson county district
