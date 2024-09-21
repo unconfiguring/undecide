@@ -25,7 +25,7 @@ dob : february 4, 2002
 address : 346 bridle path, worcester, massachusetts 01604
 phone : 9782276916 
          └──│tmobile
-             │reported : january 2024 
+            │reported : january 2024 
 
 aliases
 
@@ -34,7 +34,7 @@ wiley holmes
 
 grxviity 
  └──│grxviity0204 
-     │grxviity02
+    │grxviity02
 
 betus
  └──│betus0204
@@ -88,32 +88,32 @@ email
                                                                
 betus0204@gmail.com 
  └──│id : 101433395948670578070
-     │name : grxviity
-     │profile picture : files.offshore.cat/OMK1xWmT.jpg
-     │google reviews : google.com/maps/contrib/101433395948670578070
+    │name : grxviity
+    │profile picture : files.offshore.cat/OMK1xWmT.jpg
+    │google reviews : google.com/maps/contrib/101433395948670578070
                                                        
 password : wiley0204, betus0204
 signed up : tiktok.com 
              └──│soundcloud.com 
-                 │snapchat.com
-                 │facebook.com
-                 │spotify.com
-                 │picsart.com
-                 │spotify.com
-                 │google.com
-                 │adobe.com  
+                │snapchat.com
+                │facebook.com
+                │spotify.com
+                │picsart.com
+                │spotify.com
+                │google.com
+                │adobe.com  
                                  
                                                          
 student.182449@worcesterschools.net
 └──│id : 112132103138799578667
-    │name : wiley holmes (student)
-    │profile picture : files.offshore.cat/e3UNLA2U.png
+   │name : wiley holmes (student)
+   │profile picture : files.offshore.cat/e3UNLA2U.png
 
 password : 02042009
 signed up : worcesterschools.org 
              └──│soundcloud.com
-                 │google.com
-                 │clever.com
+                │google.com
+                │clever.com
 
 ip
                         
@@ -128,8 +128,8 @@ phone
 
 9782276916
 └──│active since : 2022
-    │carrier : tmobile
-    │type : mobile
+  │carrier : tmobile
+  │type : mobile
 
 socials
 
@@ -146,50 +146,50 @@ education
 school id : #182449
 elementary school : lake view elementary school
                      └──│address : 133 coburn ave, worcester, massachusetts 01604
-                         │phone number : 5087993536
+                        │phone number : 5087993536
 
 high school : worcester technical high school 
                └──│address : 1 officer manny familia wy, worcester, massachusetts 01605
-                   │phone number : 5087991940
+                  │phone number : 5087991940
 
 mother
 
 jolene ramalho
  └──│date of birth : october 31 1967
-     │address : 346 bridle path, worcester, massachusetts 01604
-     │phone number : 9782276916
+    │address : 346 bridle path, worcester, massachusetts 01604
+    │phone number : 9782276916
                       └──│9785057491
-                          │9047439842
-                          │8065439254
-                          │3523240540
+                         │9047439842
+                         │8065439254
+                         │3523240540
                                 
 jmramalho1967@gmail.com
  └──│id : 107664927978869287646
-     │name : jolene ramalho
-     │profile picture : files.offshore.cat/FyTDo0wK.jpg
-     │google reviews : google.com/maps/contrib/107664927978869287646
-     │ip : 74.140.144.230
-            └──│: 70.22.190.254 
-                │69.13.155.235
-                │96.39.9.210
-                │154.54.67.240
-                │192.35.124.85  
-                │204.79.188.132 
+    │name : jolene ramalho
+    │profile picture : files.offshore.cat/FyTDo0wK.jpg
+    │google reviews : google.com/maps/contrib/107664927978869287646
+    │ip : 74.140.144.230
+           └──│: 70.22.190.254 
+              │69.13.155.235
+              │96.39.9.210
+              │154.54.67.240
+              │192.35.124.85  
+              │204.79.188.132 
 
  
 password : wiley0204, wileyjohn0204, DmuqIp
 signed up : instagram 
              └──│pintrest
-                 │spotify
-                 │gmail
-                 │nike
+                │spotify
+                │gmail
+                │nike
 
 ngross1966@gmail.com
  └──│id : 104186157145423434989
-     │name : jolene ramalho
-     │profile picture : files.offshore.cat/7mcfwxlV.jpg
-     │google reviews : google.com/maps/contrib/104186157145423434989
+    │name : jolene ramalho
+    │profile picture : files.offshore.cat/7mcfwxlV.jpg
+    │google reviews : google.com/maps/contrib/104186157145423434989
                                
 signed up : soundcloud
  └──│instagram 
-     │pinterest
+    │pinterest
