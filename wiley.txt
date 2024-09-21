@@ -18,29 +18,29 @@ information
 name : wiley john holmes
 zodiac : pisces 
 birth location : worcester, massachusetts 
-                 └──│02/04/2008                                   
+                 └──│ 02/04/2008                                   
 dob : february 4, 2008
-      └──│02/04/2008
+      └──│ 02/04/2008
 
 address : 346 bridle path, worcester, massachusetts 01604
 phone : 9782276916 
-         └──│tmobile
-            │reported : january 2024 
+         └──│ tmobile
+            │ reported : january 2024 
 
 aliases
 
 wiley holmes 
- └──│wiley john holmes
+ └──│ wiley john holmes
 
 grxviity 
- └──│grxviity0204 
-    │grxviity02
+ └──│ grxviity0204 
+    │ grxviity02
 
 betus
- └──│betus0204
+ └──│ betus0204
  
 skindawgs 
- └──│skindawgs_
+ └──│ skindawgs_
 
 mando_mcnugget
 gretschenergy
@@ -66,70 +66,70 @@ house estimate : $391,500
 bathrooms : 2
 bedrooms : 3
 house picture : files.offshore.cat/ou0qNut1.png
-                └──│mirror : ibb.co/S30wJLn
+                └──│ mirror : ibb.co/S30wJLn
 
 price history : files.offshore.cat/StPqORLj.png 
-                 └──│mirror : ibb.co/2MtJ9zV
+                 └──│ mirror : ibb.co/2MtJ9zV
 
 tax history : files.offshore.cat/vg2DcdP2.png
-               └──│mirror :ibb.co/6NT2cht
+               └──│ mirror :ibb.co/6NT2cht
 
 previous addresses
 
 7 eaton pl leominster, massachusetts 01453
-  └──│january 2013 - january 2018
+  └──│ january 2013 - january 2018
 
 16 s shaker rd harvard, massachusetts 01451
- └──│march 2009 - july 2023
+ └──│ march 2009 - july 2023
 
 po box 412 westborough, massachusetts 01581
 
 email                         
                                                                
 betus0204@gmail.com 
- └──│id : 101433395948670578070
-    │name : grxviity
-    │profile picture : files.offshore.cat/OMK1xWmT.jpg
-    │google reviews : google.com/maps/contrib/101433395948670578070
+ └──│ id : 101433395948670578070
+    │ name : grxviity
+    │ profile picture : files.offshore.cat/OMK1xWmT.jpg
+    │ google reviews : google.com/maps/contrib/101433395948670578070
                                                        
 password : wiley0204, betus0204
 signed up : tiktok.com 
-             └──│soundcloud.com 
-                │snapchat.com
-                │facebook.com
-                │spotify.com
-                │picsart.com
-                │spotify.com
-                │google.com
-                │adobe.com  
+             └──│ soundcloud.com 
+                │ snapchat.com
+                │ facebook.com
+                │ spotify.com
+                │ picsart.com
+                │ spotify.com
+                │ google.com
+                │ adobe.com  
                                  
                                                          
 student.182449@worcesterschools.net
-└──│id : 112132103138799578667
-   │name : wiley holmes (student)
-   │profile picture : files.offshore.cat/e3UNLA2U.png
+└──│ id : 112132103138799578667
+   │ name : wiley holmes (student)
+   │ profile picture : files.offshore.cat/e3UNLA2U.png
 
 password : 02042009
 signed up : worcesterschools.org 
-             └──│soundcloud.com
-                │google.com
-                │clever.com
+             └──│ soundcloud.com
+                │ google.com
+                │ clever.com
 
 ip
                         
 64.35.203.235 
- └──│type : dynamic
-     │isp : tds telecom
-     │hostname : h64-35-203-235.cntcnh.broadband.dynamic.tds.net
-     │isp website : tdstelecom.com
-     │asn : 4181
+ └──│ type : dynamic
+    │ isp : tds telecom
+    │ hostname : h64-35-203-235.cntcnh.broadband.dynamic.tds.net
+    │ isp website : tdstelecom.com
+    │ asn : 4181
 
 phone
 
 9782276916
-└──│active since : 2022
-  │carrier : tmobile
-  │type : mobile
+ └──│ active since : 2022
+    │ carrier : tmobile
+    │ type : mobile
 
 socials
 
@@ -139,57 +139,57 @@ snapchat : snapchat.com/add/skindawgs
 discord : discordapp.com/users/928780461004701798
 xbox : account.xbox.com/en-us/profile?gamertag=qtrxcaliber
 instagram : instagram.com/_grxviity  
-             └──│instagram.com/grx_viity
+             └──│ instagram.com/grx_viity
 
 education                                                
                 
 school id : #182449
 elementary school : lake view elementary school
-                     └──│address : 133 coburn ave, worcester, massachusetts 01604
-                        │phone number : 5087993536
+                     └──│ address : 133 coburn ave, worcester, massachusetts 01604
+                        │ phone number : 5087993536
 
 high school : worcester technical high school 
-               └──│address : 1 officer manny familia wy, worcester, massachusetts 01605
-                  │phone number : 5087991940
+               └──│ address : 1 officer manny familia wy, worcester, massachusetts 01605
+                  │ phone number : 5087991940
 
 mother
 
 jolene ramalho
- └──│date of birth : october 31 1967
-    │address : 346 bridle path, worcester, massachusetts 01604
-    │phone number : 9782276916
-                      └──│9785057491
-                         │9047439842
-                         │8065439254
-                         │3523240540
+ └──│ date of birth : october 31 1967
+    │ address : 346 bridle path, worcester, massachusetts 01604
+    │ phone number : 9782276916
+                      └──│ 9785057491
+                         │ 9047439842
+                         │ 8065439254
+                         │ 3523240540
                                 
 jmramalho1967@gmail.com
- └──│id : 107664927978869287646
-    │name : jolene ramalho
-    │profile picture : files.offshore.cat/FyTDo0wK.jpg
-    │google reviews : google.com/maps/contrib/107664927978869287646
-    │ip : 74.140.144.230
-           └──│: 70.22.190.254 
-              │69.13.155.235
-              │96.39.9.210
-              │154.54.67.240
-              │192.35.124.85  
-              │204.79.188.132 
+ └──│ id : 107664927978869287646
+    │ name : jolene ramalho
+    │ profile picture : files.offshore.cat/FyTDo0wK.jpg
+    │ google reviews : google.com/maps/contrib/107664927978869287646
+    │ ip : 74.140.144.230
+           └──│ 70.22.190.254 
+              │ 69.13.155.235
+              │ 96.39.9.210
+              │ 154.54.67.240
+              │ 192.35.124.85  
+              │ 204.79.188.132 
 
  
 password : wiley0204, wileyjohn0204, DmuqIp
 signed up : instagram 
-             └──│pintrest
-                │spotify
-                │gmail
-                │nike
+             └──│ pintrest
+                │ spotify
+                │ gmail
+                │ nike
 
 ngross1966@gmail.com
- └──│id : 104186157145423434989
-    │name : jolene ramalho
-    │profile picture : files.offshore.cat/7mcfwxlV.jpg
-    │google reviews : google.com/maps/contrib/104186157145423434989
+ └──│ id : 104186157145423434989
+    │ name : jolene ramalho
+    │ profile picture : files.offshore.cat/7mcfwxlV.jpg
+    │ google reviews : google.com/maps/contrib/104186157145423434989
                                
 signed up : soundcloud
- └──│instagram 
-    │pinterest
+ └──│ instagram 
+    │ pinterest
