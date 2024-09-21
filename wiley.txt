@@ -74,9 +74,7 @@ price history : files.offshore.cat/StPqORLj.png
 tax history : files.offshore.cat/vg2DcdP2.png
                └──│mirror :ibb.co/6NT2cht
 
-
 previous addresses
-
 
 7 eaton pl leominster, massachusetts 01453
   └──│january 2013 - january 2018
@@ -86,9 +84,8 @@ previous addresses
 
 po box 412 westborough, massachusetts 01581
 
-
 email                         
-                                                                
+                                                               
 betus0204@gmail.com 
  └──│id : 101433395948670578070
      │name : grxviity
