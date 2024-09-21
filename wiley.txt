@@ -18,9 +18,9 @@ information
 name : wiley john holmes
 zodiac : pisces 
 birth location : worcester, massachusetts 
-                 └──│ 02/04/2008                                   
+                  └──│ 02/04/2008                                   
 dob : february 4, 2008
-      └──│ 02/04/2008
+       └──│ 02/04/2008
 
 address : 346 bridle path, worcester, massachusetts 01604
 phone : 9782276916 
@@ -66,7 +66,7 @@ house estimate : $391,500
 bathrooms : 2
 bedrooms : 3
 house picture : files.offshore.cat/ou0qNut1.png
-                └──│ mirror : ibb.co/S30wJLn
+                 └──│ mirror : ibb.co/S30wJLn
 
 price history : files.offshore.cat/StPqORLj.png 
                  └──│ mirror : ibb.co/2MtJ9zV
@@ -105,9 +105,9 @@ signed up : tiktok.com
                                  
                                                          
 student.182449@worcesterschools.net
-└──│ id : 112132103138799578667
-   │ name : wiley holmes (student)
-   │ profile picture : files.offshore.cat/e3UNLA2U.png
+ └──│ id : 112132103138799578667
+    │ name : wiley holmes (student)
+    │ profile picture : files.offshore.cat/e3UNLA2U.png
 
 password : 02042009
 signed up : worcesterschools.org 
@@ -169,12 +169,12 @@ jmramalho1967@gmail.com
     │ profile picture : files.offshore.cat/FyTDo0wK.jpg
     │ google reviews : google.com/maps/contrib/107664927978869287646
     │ ip : 74.140.144.230
-           └──│ 70.22.190.254 
-              │ 69.13.155.235
-              │ 96.39.9.210
-              │ 154.54.67.240
-              │ 192.35.124.85  
-              │ 204.79.188.132 
+            └──│ 70.22.190.254 
+               │ 69.13.155.235
+               │ 96.39.9.210
+               │ 154.54.67.240
+               │ 192.35.124.85  
+               │ 204.79.188.132 
 
  
 password : wiley0204, wileyjohn0204, DmuqIp
