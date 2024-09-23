@@ -1,19 +1,4 @@
-irls
-
-files.offshore.cat/wQjtF7HK.jpg
-files.offshore.cat/fKB3AQSn.jpg 
-files.offshore.cat/8RfLLMTQ.jpg 
-files.offshore.cat/KCk6J1mW.jpg 
-files.offshore.cat/OI0NOEfV.jpg 
-files.offshore.cat/ixeXOObV.jpg 
-files.offshore.cat/QsgsxAzu.png  
-files.offshore.cat/Xr2HNp7o.png 
-files.offshore.cat/UZjGOXov.png  
-files.offshore.cat/aqgvAPAg.png 
-files.offshore.cat/AOZILqgk.png 
-files.offshore.cat/AqvJM9cQ.png 
-
-information
+›  information
                                          
 name : wiley john holmes
 zodiac : pisces 
@@ -27,7 +12,7 @@ phone : 9782276916
          └──│ tmobile
             │ reported : january 2024 
 
-aliases
+›  aliases
 
 wiley holmes 
  └──│ wiley john holmes
@@ -48,7 +33,7 @@ qtrxcaliber
 kingxkashi
 
 
-demographics
+›  demographics
                                              
 sexuality : hetrosexual
 ethnicity : white
@@ -57,7 +42,7 @@ hair color : brown
 eye color : brown 
 gender : male    
 
-address
+›  address
                         
 address : 346 bridle path, worcester, massachusetts 01604 - $2,814/mo
 school district : worcester school district
@@ -82,9 +67,7 @@ previous addresses
 16 s shaker rd harvard, massachusetts 01451
  └──│ march 2009 - july 2023
 
-po box 412 westborough, massachusetts 01581
-
-email                         
+›  email                         
                                                                
 betus0204@gmail.com 
  └──│ id : 101433395948670578070
@@ -115,7 +98,7 @@ signed up : worcesterschools.org
                 │ google.com
                 │ clever.com
 
-ip
+›  ip
                         
 64.35.203.235 
  └──│ type : dynamic
@@ -124,14 +107,14 @@ ip
     │ isp website : tdstelecom.com
     │ asn : 4181
 
-phone
+›  phone
 
 9782276916
  └──│ active since : 2022
     │ carrier : tmobile
     │ type : mobile
 
-socials
+›  socials
 
 roblox : roblox.com/users/1650765076/profile
 tiktok : tiktok.com/@.grxviity_1
@@ -141,7 +124,7 @@ xbox : account.xbox.com/en-us/profile?gamertag=qtrxcaliber
 instagram : instagram.com/_grxviity  
              └──│ instagram.com/grx_viity
 
-education                                                
+›  education                                                
                 
 school id : #182449
 elementary school : lake view elementary school
@@ -152,7 +135,7 @@ high school : worcester technical high school
                └──│ address : 1 officer manny familia wy, worcester, massachusetts 01605
                   │ phone number : 5087991940
 
-mother
+›  mother
 
 jolene ramalho
  └──│ date of birth : october 31 1967
