@@ -74,17 +74,18 @@ betus0204@gmail.com
     │ name : grxviity
     │ profile picture : files.offshore.cat/OMK1xWmT.jpg
     │ google reviews : google.com/maps/contrib/101433395948670578070
-                                                       
-password : wiley0204, betus0204
-signed up : tiktok.com 
-             └──│ soundcloud.com 
-                │ snapchat.com
-                │ facebook.com
-                │ spotify.com
-                │ picsart.com
-                │ spotify.com
-                │ google.com
-                │ adobe.com  
+    │
+    │ ──│ password : wiley0204, betus0204
+    │
+    │ ──│ signed up : tiktok.com 
+                      └──│ soundcloud.com 
+                         │ snapchat.com
+                         │ facebook.com
+                         │ spotify.com
+                         │ picsart.com
+                         │ spotify.com
+                         │ google.com
+                         │ adobe.com  
                                  
                                                          
 student.182449@worcesterschools.net
