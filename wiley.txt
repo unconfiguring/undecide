@@ -50,6 +50,7 @@ property owner : jolene ramalho
 house estimate : $391,500
 bathrooms : 2
 bedrooms : 3
+
 house picture : files.offshore.cat/ou0qNut1.png
                  └──│ mirror : ibb.co/S30wJLn
 
@@ -59,7 +60,7 @@ price history : files.offshore.cat/StPqORLj.png
 tax history : files.offshore.cat/vg2DcdP2.png
                └──│ mirror :ibb.co/6NT2cht
 
-previous addresses
+›  previous addresses
 
 7 eaton pl leominster, massachusetts 01453
   └──│ january 2013 - january 2018
