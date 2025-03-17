@@ -13,6 +13,7 @@ files.catbox.moe/eqvsr4.pdf ‐ home mortage, deed & discharge
 files.catbox.moe/iaxvti.pdf ‐ current home information report
  └──│ 346 bridle path, worcester, massachusetts
 
+
 ‐ information
                                          
 name : wiley john holmes
@@ -26,6 +27,15 @@ address : 346 bridle path, worcester, massachusetts 01604
 phone : 9782276916 
          └──│ tmobile
             │ reported : january 2024 
+
+
+‐ demographics
+
+ethnicity : white
+hair color : brown 
+eye color : brown 
+gender : male  
+
 
 ‐ aliases
 
@@ -46,14 +56,7 @@ mando_mcnugget
 gretschenergy
 qtrxcaliber
 kingxkashi
-
-
-‐ demographics
-
-ethnicity : white
-hair color : brown 
-eye color : brown 
-gender : male    
+  
 
 ‐ address
                         
@@ -76,6 +79,7 @@ tax history : files.catbox.moe/uzpezq.png
 
 16 s shaker rd harvard, massachusetts 01451
  └──│ march 2009
+
 
 ‐ email                         
                                                                
@@ -109,6 +113,7 @@ signed up : worcesterschools.org
                 │ google.com
                 │ clever.com
 
+
 ‐ ip
                         
 64.35.203.235 
@@ -118,12 +123,14 @@ signed up : worcesterschools.org
     │ isp website : tdstelecom.com
     │ asn : 4181
 
+
 ‐ phone
 
 9782276916
  └──│ active since : 2022
     │ carrier : tmobile
     │ type : mobile
+
 
 ‐ socials
 
@@ -135,6 +142,7 @@ xbox : account.xbox.com/en-us/profile?gamertag=qtrxcaliber
 instagram : instagram.com/_grxviity  
              └──│ instagram.com/grx_viity
 
+
 ‐ education                                                
                 
 school id : #182449
@@ -145,6 +153,7 @@ elementary school : lake view elementary school
 high school : worcester technical high school 
                └──│ address : 1 officer manny familia wy, worcester, massachusetts 01605
                   │ phone number : 5087991940
+
 
 ‐ mother
 
