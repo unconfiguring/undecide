@@ -1,18 +1,19 @@
-›  pictures
+@reauthorized on discord
 
-files.offshore.cat/wQjtF7HK.jpg 
-files.offshore.cat/fKB3AQSn.jpg 
-files.offshore.cat/KCk6J1mW.jpg 
-files.offshore.cat/OI0NOEfV.jpg 
-files.offshore.cat/ixeXOObV.jpg 
-files.offshore.cat/QsgsxAzu.png 
-files.offshore.cat/Xr2HNp7o.png  
-files.offshore.cat/UZjGOXov.png 
-files.offshore.cat/aqgvAPAg.png 
-files.offshore.cat/AOZILqgk.png 
-files.offshore.cat/AqvJM9cQ.png 
+‐ documents
 
-›  information
+files.catbox.moe/l8oajz.pdf ‐ court case
+ └──│ worcester probate & family court
+    │ case number : wo10w1414wd 
+    │ case status : closed
+
+files.catbox.moe/eqvsr4.pdf ‐ home mortage, deed & discharge
+ └──│ 346 bridle path, worcester, massachusetts
+
+files.catbox.moe/iaxvti.pdf ‐ current home information report
+ └──│ 346 bridle path, worcester, massachusetts
+
+‐ information
                                          
 name : wiley john holmes
 zodiac : pisces 
@@ -26,7 +27,7 @@ phone : 9782276916
          └──│ tmobile
             │ reported : january 2024 
 
-›  aliases
+‐ aliases
 
 wiley holmes 
  └──│ wiley john holmes
@@ -47,42 +48,36 @@ qtrxcaliber
 kingxkashi
 
 
-›  demographics
-                                             
-sexuality : hetrosexual
+‐ demographics
+
 ethnicity : white
-religion : christian
 hair color : brown 
 eye color : brown 
 gender : male    
 
-›  address
+‐ address
                         
 address : 346 bridle path, worcester, massachusetts 01604 - $2,814/mo
-school district : worcester school district
-property owner : jolene ramalho
+property owner : cindy crandall
 house estimate : $391,500
 bathrooms : 2
 bedrooms : 3
 
-house picture : files.offshore.cat/ou0qNut1.png
+house picture : files.catbox.moe/u2gwol.png
                  └──│ mirror : ibb.co/S30wJLn
 
-price history : files.offshore.cat/StPqORLj.png 
-                 └──│ mirror : ibb.co/2MtJ9zV
-
-tax history : files.offshore.cat/vg2DcdP2.png
-               └──│ mirror : ibb.co/6NT2cht
+tax history : files.catbox.moe/uzpezq.png
+               └──│ mirror : ibb.co/Kjmm0DZF
 
 ›  previous addresses
 
 7 eaton pl leominster, massachusetts 01453
-  └──│ january 2013 - january 2018
+  └──│ january 2013
 
 16 s shaker rd harvard, massachusetts 01451
- └──│ march 2009 - july 2023
+ └──│ march 2009
 
-›  email                         
+‐ email                         
                                                                
 betus0204@gmail.com 
  └──│ id : 101433395948670578070
@@ -114,7 +109,7 @@ signed up : worcesterschools.org
                 │ google.com
                 │ clever.com
 
-›  ip
+‐ ip
                         
 64.35.203.235 
  └──│ type : dynamic
@@ -123,14 +118,14 @@ signed up : worcesterschools.org
     │ isp website : tdstelecom.com
     │ asn : 4181
 
-›  phone
+‐ phone
 
 9782276916
  └──│ active since : 2022
     │ carrier : tmobile
     │ type : mobile
 
-›  socials
+‐ socials
 
 roblox : roblox.com/users/1650765076/profile
 tiktok : tiktok.com/@.grxviity_1
@@ -140,7 +135,7 @@ xbox : account.xbox.com/en-us/profile?gamertag=qtrxcaliber
 instagram : instagram.com/_grxviity  
              └──│ instagram.com/grx_viity
 
-›  education                                                
+‐ education                                                
                 
 school id : #182449
 elementary school : lake view elementary school
@@ -151,9 +146,9 @@ high school : worcester technical high school
                └──│ address : 1 officer manny familia wy, worcester, massachusetts 01605
                   │ phone number : 5087991940
 
-›  mother
+‐ mother
 
-jolene ramalho
+jolene mary ramalho
  └──│ date of birth : october 31 1967
     │ address : 346 bridle path, worcester, massachusetts 01604
     │ phone number : 9782276916
