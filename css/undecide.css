@@ -5,7 +5,7 @@ body {
     background-color: #000000;
     font-family: "Lucida Console", "Courier New", monospace;
     padding-bottom: 35px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 @font-face {
@@ -19,27 +19,12 @@ body {
 button {
     background: none;
     border: none;
-    color: rgba(170, 170, 170, 0.493); 
+    color: rgba(170, 170, 170, 0.493);
     font-size: 16px;
     cursor: pointer;
     margin: 10px 0;
     padding: 0;
     font-family: "Lucida Console", "Courier New", monospace;
-}
-
-#countdown {
-    font-family: 'basiic', "Lucida Console", "Courier New", monospace; /* Ensure the font matches your existing styles */
-    font-size: 1.5em; /* Reduced font size */
-    color: white;
-    text-align: center;
-    background: none; /* Remove background color */
-    border: none; /* Remove border */
-    -webkit-touch-callout: none; /* Disable touch callout on iOS */
-    -webkit-user-select: none; /* Disable text selection on WebKit browsers */
-    -khtml-user-select: none; /* Disable text selection on older Konqueror browsers */
-    -moz-user-select: none; /* Disable text selection on Mozilla browsers */
-    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
-    user-select: none; /* Disable text selection on other browsers */
 }
 
 button:disabled {
@@ -65,30 +50,29 @@ body a {
     margin: 0 auto;
     color: white;
     display: flex;
-    flex-direction: column; /* Ensure vertical alignment */
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 100vh; /* Center vertically */
+    height: 100vh;
     justify-content: center;
 }
 
 .ascii {
-    font-size: 14px; /* Adjusted font size to make ASCII art smaller */
-    padding: 14px;  /* Reduced padding */
-    margin: -10px 0 0 0; /* Move ASCII art up by 10px (adjust as needed) */
-    line-height: 1; /* Adjusted line height */
-    transform: scale(1); /* Scale down the ASCII art (if needed) */
-    transform-origin: top left; /* Ensure scaling starts from the top-left corner */
-    animation: textShadow 1.6s infinite; /* Added animation */
-    -webkit-touch-callout: none; /* Disable touch callout on iOS */
-    -webkit-user-select: none; /* Disable text selection on WebKit browsers */
-    -khtml-user-select: none; /* Disable text selection on older Konqueror browsers */
-    -moz-user-select: none; /* Disable text selection on Mozilla browsers */
-    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
-    user-select: none; /* Disable text selection on other browsers */
+    font-size: 14px;
+    padding: 14px;
+    margin: -10px 0 0 0;
+    line-height: 1;
+    transform: scale(1);
+    transform-origin: top left;
+    animation: textShadow 1.6s infinite;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-/* Ensure to define the animation keyframes */
 @keyframes textShadow {
     0% {
         text-shadow: 0 0 0 rgba(0,0,0,0);
@@ -114,13 +98,13 @@ body a {
 }
 
 #navbar-container {
-    margin-top: 10px; /* Reduced top margin to bring "hoa" text closer */
+    margin-top: 10px;
 }
 
 .nav {
     text-align: center;
-    margin: 0; /* Removed margins */
-    padding: 0; /* Removed padding */
+    margin: 0;
+    padding: 0;
 }
 
 .nav li {
@@ -183,8 +167,8 @@ body a {
 
 ul.nav-item {
     list-style-type: none;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 .content-bottom {
