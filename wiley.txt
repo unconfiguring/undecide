@@ -8,6 +8,9 @@ files.catbox.moe/l8oajz.pdf ‐ court record
     │ case number : wo10w1414wd 
     │ case status : closed
 
+files.catbox.moe/lkj6jv.pdf - voting records
+ └──│ party : unenrolled
+
 files.catbox.moe/eqvsr4.pdf ‐ home mortage, deed & discharge
  └──│ 346 bridle path, worcester, massachusetts
 
@@ -159,7 +162,8 @@ high school : worcester technical high school
 ‐ mother
 
 jolene mary ramalho
- └──│ date of birth : october 31 1967
+ └──│ date of birth : november 3rd 1967
+    │ political party : unenrolled
     │ address : 346 bridle path, worcester, massachusetts 01604
     │ phone number : 9782276916
                       └──│ 9785057491
