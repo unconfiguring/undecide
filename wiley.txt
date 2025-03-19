@@ -127,6 +127,13 @@ signed up : worcesterschools.org
     │ isp website : tdstelecom.com
     │ asn : 4181
 
+75.130.233.34
+ └──│ type : dynamic
+    │ isp : charter communications llc
+    │ hostname : syn-075-130-233-034.res.spectrum.com
+    │ isp website : spectrum.com
+    │ asn : 20115
+
 
 ‐ phone
 
