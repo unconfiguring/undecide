@@ -9,7 +9,7 @@ files.catbox.moe/l8oajz.pdf ‐ court record
     │ case status : closed
 
 files.catbox.moe/lkj6jv.pdf - voting record
- └──│ party : unenrolled
+ └──│ political party : unenrolled
 
 files.catbox.moe/eqvsr4.pdf ‐ home mortage, deed & discharge
  └──│ 346 bridle path, worcester, massachusetts
